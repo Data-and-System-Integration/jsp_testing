@@ -13,7 +13,7 @@
         </field-data>
         <field-data>
           <name>data_outlet</name>
-          <value>1274000628</value>
+          <value>1274000662</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -21,26 +21,26 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>13</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <executionTimeResult>15</executionTimeResult>
+      <numberOfRulesFired>2</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>data_brand</fieldName>
           <expected></expected>
-          <actualResult>1274000662</actualResult>
+          <actualResult>1274000231</actualResult>
           <successResult>false</successResult>
-          <explanation>[pub_cns_combined_flattened_bre] field [data_brand] was [1274000662] expected [].</explanation>
+          <explanation>[pub_cns_combined_flattened_bre] field [data_brand] was [1274000231] expected [].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
         <expect-field>
           <fieldName>data_outlet</fieldName>
           <expected></expected>
-          <actualResult>1274000628</actualResult>
+          <actualResult>1274000665</actualResult>
           <successResult>false</successResult>
-          <explanation>[pub_cns_combined_flattened_bre] field [data_outlet] was [1274000628] expected [].</explanation>
+          <explanation>[pub_cns_combined_flattened_bre] field [data_outlet] was [1274000665] expected [].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -49,7 +49,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-01 13:51:34.46 UTC</lastRunResult>
+  <lastRunResult>2020-08-01 13:55:21.939 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.shubhi.jsp_testing</packageName>
