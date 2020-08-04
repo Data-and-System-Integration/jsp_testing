@@ -49,7 +49,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-01 13:55:21.939 UTC</lastRunResult>
+  <lastRunResult>2020-08-04 06:20:22.556 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.shubhi.jsp_testing</packageName>
