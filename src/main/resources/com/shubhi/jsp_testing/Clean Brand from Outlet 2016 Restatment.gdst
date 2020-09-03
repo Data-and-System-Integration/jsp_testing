@@ -48,7 +48,6 @@
           <header>data_outlet equals</header>
           <constraintValueType>3</constraintValueType>
           <factField>data_outlet</factField>
-          <fieldType>BigDecimal</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
@@ -58,7 +57,6 @@
           <header>data_brand not in</header>
           <constraintValueType>1</constraintValueType>
           <factField>data_brand</factField>
-          <fieldType>BigDecimal</fieldType>
           <operator>not in</operator>
           <parameters/>
         </condition-column52>
@@ -68,7 +66,6 @@
           <header>data_brand equals</header>
           <constraintValueType>3</constraintValueType>
           <factField>data_brand</factField>
-          <fieldType>BigDecimal</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
@@ -137,7 +134,11 @@
     <entries/>
   </auditLog>
   <imports>
-    <imports/>
+    <imports>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.data_object.data_object.pub_cns_combined_flattened_bre</type>
+      </org.kie.soup.project.datamodel.imports.Import>
+    </imports>
   </imports>
   <packageName>com.shubhi.jsp_testing</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
